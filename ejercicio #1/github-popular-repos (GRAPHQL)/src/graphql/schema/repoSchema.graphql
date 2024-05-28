@@ -1,0 +1,9 @@
+type Repo {
+  name: String
+  stars: Int
+  url: String
+}
+
+type Query {
+  popularRepos(username: String!): [Repo]
+}

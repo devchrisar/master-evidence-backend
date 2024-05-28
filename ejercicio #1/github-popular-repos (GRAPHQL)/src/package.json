@@ -1,0 +1,28 @@
+{
+  "name": "github-popular-repos-graphql",
+  "version": "1.0.2",
+  "description": "Aplicación Node.js que consume la API de GitHub y muestra los 10 repositorios más populares del usuario google en graphql",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "github",
+    "popular",
+    "repos",
+    "google"
+  ],
+  "author": "Christopher Arias",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/schema": "^10.0.4",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^3.1.1"
+  }
+}
